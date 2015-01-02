@@ -1,0 +1,19 @@
+{
+  "name": "corenlp-manager-client",
+  "version": "0.0.1",
+  "author": "Liam Doherty <lfdoherty@gmail.com>",
+  "main": "client.js",
+  "dependencies": {
+    "json-over-tcp": "^0.3.2",
+    "node-uuid": "^1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lfdoherty/node-corenlp-manager-client.git"
+  },
+  "description": "Client for corenlp-manager, connects to a Docker instance in which corenlp-manager-server is running.",
+  "license": "MIT",
+  "scripts": {
+  	"example": "node example.js"
+  }
+}
